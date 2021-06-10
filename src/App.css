@@ -1,0 +1,18 @@
+.App{
+    /* background-color: white; */
+    background-color: #ebe6e6;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+
+    
+    /* position: relative; */
+    /* height: 100vh; */
+}
+
+.app_body{
+    display: flex;
+    
+} 
+

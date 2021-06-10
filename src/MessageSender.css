@@ -1,0 +1,66 @@
+.messagesender{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: white;
+    border-radius:15px ;
+    box-shadow: 0px 2px 8px -5px rgba(0, 0, 0, 75);
+    /* width: 100%; */
+}
+.message_top{
+    display: flex;
+    border-bottom:1px solid white ;
+    padding: 15px;
+}
+.message_top > form{
+    flex: 1;
+    display: flex;
+    margin: 0 5px;
+}
+.message_top > form > input{
+    outline-width: 0;
+    border: none;
+    padding: 5px 22px;
+    margin: 0 10px;
+    border-radius: 999px;
+    /* background-color: white; */
+    /* color: lightgray; */
+    background-color: #e4dcdc;
+}
+.message_top > form > button{
+    display: none;
+}
+.message_input{
+    flex: 1;
+}
+.message_bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.messagesender_option{
+    display: flex;
+    padding:20px ;
+    align-items: center;
+    color: rgb(148, 139, 139);
+    margin: 5px;
+    /* justify-content: space-between; */
+}
+.messagesender_option > h2{
+    display: flex;
+    padding: 0px 1px ;
+    font-size: medium;
+    margin: 0px 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.messagesender_option:hover{
+    background-color: rgb(218, 212, 212);
+    border-radius: 20px;
+    color: rgb(148, 139, 139);
+
+}
+/* .Icon{
+ display: flex;
+ padding: 1px;
+} */

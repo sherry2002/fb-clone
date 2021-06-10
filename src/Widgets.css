@@ -1,0 +1,99 @@
+.widgets{
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 2px;
+    width: 320px;
+    right: 0;
+    margin-right: 2px!important;
+    float: right !important;
+
+    
+}
+.wid1 {
+       justify-content: center;
+       align-items: center;   
+}
+.wid1 > p{
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
+    font-size: small;
+    font-weight: 500;
+    
+    
+
+}
+.wid2{
+  background-image: url(./images/4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  border-radius: 0px;
+  /* width: 300px; */
+  height: 150px;
+  align-items: center;
+  justify-content: center ;
+  color: white;
+  padding: 5px;
+  position: relative;
+  box-shadow: 0px 3px 11px -7px rgba(0, 0, 0, 0.75);
+  
+}
+.wid2 > p{
+  width: 60%;
+  margin: 5px 0px 0px 5px ;
+  align-items: center;
+  justify-content: center ;
+  padding: 0px 3px;
+  
+
+}
+.wid2 > h2{
+  width: 60%;
+  margin: 5px 0px 0px 5px ;
+  align-items: center;
+  justify-content: center ;
+
+}
+.btn{
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 10px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+ 
+
+
+}
+
+.btn1{
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     display: flex;
+  /* color: black; */
+  /* border: 1px solid white; */
+  /* border-radius: 10px; */
+  padding: 2px;
+  cursor: pointer;
+ 
+}
+.btn2{
+  bottom: 10px;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3px;
+  cursor: pointer;
+  
+  
+}
+.wid_av{
+  margin: 3px 5px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
